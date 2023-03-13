@@ -1,0 +1,48 @@
+html {
+    margin: 0;
+    background-color: white;
+    color: #333; /* cor de texto padrão */
+    height: 100%;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+h1 {
+    margin: 0;
+    color: rgb(65, 62, 62);
+    text-align: center;
+}
+p {
+    color: rgb(65, 62, 62);
+    text-align: center;
+}
+.links-container {
+    text-align: center;
+}
+
+.links-container a {
+    display: inline-block;
+    width: 50px;
+    margin: 0 10px;
+}
+.links-container .about-link img {
+    height: 32px;
+}
+div .details p {
+    text-align: left;
+}
+details {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+body {
+    background-image: url('../resources/computer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
